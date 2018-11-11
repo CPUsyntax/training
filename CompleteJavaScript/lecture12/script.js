@@ -123,20 +123,19 @@ console.log('##########################');
 // John height in meter 140
 
 
-var markMass = 58;
-var markHeight = 160;
+var markMass = 78;
+var markHeight = 1.69;
 var markBMI = markMass/ markHeight**2;
 console.log('Mark\'s BMI: ' + markBMI);
 
 
-
-var JohnMass = 80;
-var JohnHeight = 140;
+var JohnMass = 92;
+var JohnHeight = 1.95;
 var JohnBMI = JohnMass/ JohnHeight**2;
 console.log('John\'s BMI: ' + JohnBMI);
 
 var compareBMI = markBMI > JohnBMI;
-console.log('Is Mark\'s BMI higher than John\'s?' + compareBMI);
+console.log('Is Mark\'s BMI higher than John\'s? ' + compareBMI);
 
 
 
