@@ -46,6 +46,8 @@ var job, isMarried;
 job = 'teacher';
 isMarried = false;
 
+console.log("Test 1, 2, 3...")
+
 console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
 console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
 console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
