@@ -109,15 +109,34 @@ console.log(typeof x);
 
 
 
+console.log('##########################');
+console.log('#    start lecture 12    #');
+console.log('##########################');
+/****************************************
+* Coding Challege Lecture 12 
+*/
+
+// mark mass in kg 58
+// mark height in meter 160
+
+// John mass in kg 80
+// John height in meter 140
+
+
+var markMass = 58;
+var markHeight = 160;
+var markBMI = markMass/ markHeight**2;
+console.log('Mark\'s BMI: ' + markBMI);
 
 
 
+var JohnMass = 80;
+var JohnHeight = 140;
+var JohnBMI = JohnMass/ JohnHeight**2;
+console.log('John\'s BMI: ' + JohnBMI);
 
-
-
-
-
-
+var compareBMI = markBMI > JohnBMI;
+console.log('Is Mark\'s BMI higher than John\'s?' + compareBMI);
 
 
 
