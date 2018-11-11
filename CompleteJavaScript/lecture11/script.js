@@ -103,6 +103,9 @@ var x;
 console.log(typeof x);
 
 
+/****************************************
+* Operator precedence 
+*/
 
 
 
