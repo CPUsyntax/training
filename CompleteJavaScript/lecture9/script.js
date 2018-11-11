@@ -2,7 +2,7 @@
 * Variable and Data Types
 */
 
-//eslint no-console:  
+//eslint no-console:
 
 
 /*
@@ -38,7 +38,7 @@ var age = 50;
 
 console.log("Hello");
 
-console.log("Hello World"); 
+console.log("Hello World");
 
 console.log(firstName + ' ' + age);
 
@@ -49,16 +49,13 @@ isMarried = false;
 console.log("Test 1, 2, 3...")
 
 console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
-console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
-console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
 
-//eslint no-console: ["error", { allow: ["warn", "error"] }]
+age = 'twenty-eight';
+job = 'driver';
+alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
 
-console.warn("Log a warn level message.");
-console.error("Log an error level message.");
-
-
-
+prompt
 
 
 
