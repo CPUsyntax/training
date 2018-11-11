@@ -1,3 +1,8 @@
+/****************************************
+* Variable and Data Types
+*/
+
+/*
 var firstName = 'CPU';
 console.log(firstName);
 
@@ -14,6 +19,13 @@ console.log(job);
 job = 'teacher';
 console.log(job);
 
+// Variable naming rules
 var _3years = 3;
 var johnMark = 'John and Mark';
 var _if = 23;
+*/
+
+
+/****************************************
+* Variable mutation and type coercion
+*/
