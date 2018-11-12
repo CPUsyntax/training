@@ -174,9 +174,38 @@ if(age < 13) {
 }
 
 
+console.log('####################');
+console.log('#    Lecture 16    #');
+console.log('####################');
+/***********************************************
+*  The Ternary Operator and Switch Statement 
+*/
 
+var firstName = 'John';
+var age = 50;
 
+age >= 18 ? console.log(firstName + ' drinks beer') : console.log('drinks juice');
 
+// Ternary operator
+// test ? true : false
+var drink = age >= 21 ? 'beer' : 'juice';
+console.log(drink);
+
+// Switch statement
+ var job = 'teacher';
+ switch(job) {
+     case 'teacher':
+     console.log(firstName +' teaches people to code.');
+     break;
+     case 'driver':
+     console.log(firstName +' drives an uber around Miami');
+     break;
+     case 'designer':
+     console.log(firstName +' designs beautiful websites.');
+     break;
+     default:
+     console.log(firstName +' doesn\'t do anything.');
+ }
 
 
 
